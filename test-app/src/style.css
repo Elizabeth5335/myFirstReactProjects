@@ -1,0 +1,82 @@
+/* 
+
+#21222A - header bg
+#00D8FF
+#DEEBF8
+#282D35 - bg
+
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: Inter, sans-serif;
+    height: 100vh;
+    background-color: #282D35;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #21222A;
+    color: #00D8FF;
+    height: 90px;
+    /* padding: 30px 25px; */
+}
+
+.navbar > div {
+    display: flex;
+}
+
+.navbar > h3 {
+    color: #DEEBF8;
+    margin: auto;
+}
+
+.navbar > img {
+    height: 30px;
+    margin-right: 7px;
+}
+
+/* .main{
+    background-color: #282D35;
+    display: flex;
+    color: white;
+} */
+
+.main > ul{
+    color: white;
+    margin-top: 46px;
+    max-width: 400px;
+}
+
+
+.main > ul > li{
+    line-height: 19px;
+    padding-block: 10px;
+}
+
+.main > ul > li::marker {
+    font-size: 1.4rem;
+    color: #61DAFB;
+}
+
+
+.main {
+    padding: 57px 27px;
+    color: white;
+    background-image: url(./images/Group.png);
+    background-repeat: no-repeat;
+    background-position: right 75%;
+}
+
+.main > h1 {
+    margin: 0;
+    font-size: 39px;
+    letter-spacing: -0.05em;
+    color: white
+}
+
