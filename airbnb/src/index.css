@@ -1,0 +1,111 @@
+body{
+  background-color: bisque;
+  font-family: 'Poppins';font-size: 22px;
+}
+
+.content{
+  width: 550px;
+  /* height: 853px; */
+  background-color: #fff;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+
+/* --------------------NAVBAR----------------------- */
+
+
+.navbar{
+  height: 70px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+}
+
+.navbar > img{
+  width: 82px;
+  height: auto;
+  margin: auto 30px;
+}
+
+
+
+/* --------------------HERO----------------------- */
+
+
+.hero{
+  margin-left: 30px;
+}
+
+.hero-images{
+  max-width: 400px;
+  margin: 20px auto;
+  display: flex;
+}
+
+.hero > p{
+  max-width: 320px;
+  font-size: 16px;
+}
+
+
+/* --------------------CARD----------------------- */
+
+
+.cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+  padding: 20px;
+}
+
+
+.card{
+  position: relative;
+  width: 175px;
+  font-size: 12px;
+  flex: 0 0 auto;         
+  display: flex;          
+  flex-direction: column;
+}
+
+.card-image{
+  width: 100%;
+  max-height: 235px;
+  border-radius: 9px;
+  margin-bottom: 9px;
+}
+
+.card-stats{
+  display: flex;
+  align-items: center;
+}
+
+.card-star{
+  height: 14px;
+}
+
+.gray{
+  color: gray;
+}
+
+/* 
+.card-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+} */
+
+.card-price {
+  margin-top: auto;
+}
+
+.soldOut{
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background-color: #fff;
+  font-weight: bold;
+  font-size: 10px;
+  width: 55px;
+  text-align: center;
+}
