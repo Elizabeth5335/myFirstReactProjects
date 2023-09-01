@@ -11,7 +11,12 @@ export default function App() {
   const [rolls, setRolls] = React.useState(0);
 
   const squares = dice.map((die)=>{
-      return <Square toggleClick={toggleClick} key={die.id} value={die.value} id={die.id} selected={die.selected}/>
+      return <Square toggleClick={toggleClick} 
+                    key={die.id} 
+                    value={die.value} 
+                    id={die.id} 
+                    selected={die.selected}
+              />
   })
 
 
